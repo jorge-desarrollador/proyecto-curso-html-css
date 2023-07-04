@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
+.sub-titulo{
+	text-align: center;
+	font-size: 1.4em;
+	color: white;
+
+}
+.centrado{
+	display: flex;
+	justify-items: center;
+}
+.actores{
+	margin: 5px;
+	border: 1px solid black;
+	float: left;
+	width: 30vw;
+	background:linear-gradient(to bottom, #0f3b4e, #2bcac8);
+}
+div.actores img{
+	position: relative;
+	height: 40%;
+	width: 80%;
+	left: 10%;
+}
+.descripcion{
+	padding: 4px;
+	text-align: justify;
+	color: #000200;
+	font-family: 'Roboto Mono', monospace;;
+}

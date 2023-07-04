@@ -1,0 +1,71 @@
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: url(./assets/img/eliot1.jpg) top;
+	color: #f9f9f9;
+	padding-top: 1px;
+}
+h1{
+	color: red;
+	text-align: center;
+	font-size: 3em;
+}
+ul{
+	list-style-type: none;
+	background-color: #b4c0c3;
+	padding: 5px;
+	margin: 0;
+	overflow: hidden;
+}
+li{
+	float: left;
+	border-right: 1px solid #000012;
+}
+li:last-child{
+	border-right: none;
+}
+li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px 15px;
+	text-align: center;
+	color: #000012;
+	margin-left:5px ;
+	font-size: 20px;
+}
+.active{
+	background-color: black;
+	color: red;
+}
+li a:hover:not(.active){
+	background-color: #f8f8f8;
+	color: red;
+}
+h2{
+	text-align: center;
+}
+.container{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+.footer{
+	background-color: #000012;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	margin-top: 5px;
+}
+.image{
+	float: right;
+	margin: 1px;
+	width: 300px;
+}
+.image2{
+	float: left;
+	margin: 1px;
+	width: 300px;
+}

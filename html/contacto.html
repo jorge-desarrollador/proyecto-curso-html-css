@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Jorge Luis Pongo Laura">
+	<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+	<title>primera pagina web</title>
+	<link rel="stylesheet" href="../index.css">
+	<link rel="stylesheet" href="../css/contacto.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+	<header>
+		<h1>SERIE MR ROBOT</h1>
+		<nav>
+			<ul>
+				<li ><a href="../index.html">inicio</a></li>
+				<li ><a href="personajes.html">personajes</a></li>
+				<li ><a href="audiovisual.html">audiovisual</a></li>
+				<li ><a class="active" href="contacto.html">contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="formulario">
+		<form>
+			<label for="nombre">nombre:</label>
+			<input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required minlength="3" maxlength="10">
+			<label for="apellido">apellido:</label>
+			<input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido" required minlength="3" maxlength="20">
+			<label for="email">email:</label>
+			<input type="email" name="email" id="email" placeholder="Escriba su email" required>
+			<label for="pais">Selecciona tu Pais</label>
+			<select name="pais" id="pais">
+				<option value="Bolivia">Bolivia</option>
+				<option value="Argentina">Argentina</option>
+				<option value="España">España</option>
+				<option value="Rusia">Rusia</option>
+				<option value="Mexico">Mexico</option>
+			</select>
+			<label for="comentario">comentario:</label>
+			<textarea name="comentario" id="comentario" placeholder="Escriba su comentario"></textarea>
+
+			<label for="motivo">Motivo de contacto:</label>
+			<input type="radio" id="motivo" name="motivo"><i>Felicitaciones</i>
+			<input type="radio" id="motivo" name="motivo"><i>Observacion<i>
+			<input type="radio" id="motivo" name="motivo"><i>Colaboracion<i>
+			<input type="radio" id="motivo" name="motivo"><i>Quejas<i>
+
+			<input type="submit" value="Enviar">
+		</form>
+
+	</div>
+	
+	<footer class="footer">
+		<div>
+			<p>derechos reservados &copy 2023</p>
+		</div>
+	</footer>
+</body>
+</html>
